@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+header {
+    margin: 30px 0px 144px 70px;
+    background-color: #f8f9fa;
+    padding: 30px 0 20px 0;
+    border-bottom: 2px solid #f8f8f8;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 25px;
+    cursor: pointer;
+    color: #1F2833;
+    transition: opacity 0.2s;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.nome {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.n1 {
+    color: #4c12aa;
+}
+
+.n2 {
+    color: #9933ff;
+}
+
+.nome {
+    display: none;
+}
+
+.link-menu {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    margin: 0 23px 0 0;
+    color: #4A4A4A;
+    transition: opacity 0.3s;
+    text-decoration: none;
+}
+
+.botaoL {
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    background: #2a6e70;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #E6EBFF;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.2s;
+}
+
+.botaoL:hover {
+    opacity: 0.8;
+}
+
+.logo {
+    width: 40%;
+    max-width: 430px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5%;
+}
+
+.texto {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 5%;
+    text-align: left;
+}
+
+main {
+    text-align: center;
+}
+
+.botaoE {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #42b7c7;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #E6EBFF;
+    box-shadow: 0 4px 5px rgba(114, 113, 113, 0.2);
+    transition: opacity 0.4s;
+}
+
+.botaoE:hover {
+    opacity: 0.8;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #515151;
+}
+
+.sub-titulo {
+    font-size: 30px;
+    color: #515151;
+    line-height: 60px;
+}
+
+.paragrafo {
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 20px;
+    color: #848484;
+    text-align: justify;
+    margin: 20px 0 30px 0;
+    max-width: 500px;
+}
+
+footer {
+    text-align: center;
+    background: #4c12aa;
+    padding: 30px 0 80px 0;
+    font-size: 14px;
+    margin-top: 100px;
+    color: #f0f0f0;
+}
+
+.img-dog {
+    display: block;
+    width: 70%;
+    height: 650px;
+    object-fit: cover;
+    margin: 80px auto 0 auto;
+    border-radius: 15px;
+}
+
+.servicos {
+    padding: 10px 0 100px;
+}
+
+.h2-servicos {
+    font-weight: 500;
+}
+
+.preco {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4c12aa;
+}
+
+.lista-servicos {
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    color: #462c20;
+    border: 2px solid;
+    margin: 0 20px;
+    padding: 20px 0;
+    border-radius: 15px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.lista-servicos:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 10, 0.2);
+    transform: translateY(-2px);
+}
+
+.img-card {
+    width: 70%;
+}
+
+.agenda {
+    background: #6BFF50;
+    width: 220px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(32, 32, 33);
+    transition: scale 0.3s;
+}
+
+.agenda:hover {
+    opacity: 0.8;
+    scale: 1.02;
+}
+
+@media (max-width: 768px) {
+    header {
+        margin: 30px 0px 60px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0 20px 0 0;
+    }
+
+    .botaoL {
+        width: 90px;
+        height: 32px;
+        border-radius: 15px;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 40%;
+        display: block;
+        margin: 0 auto 50px auto;
+    }
+
+    .texto {
+        width: 80%;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .img-dog {
+        max-height: 250px;
+    }
+}
